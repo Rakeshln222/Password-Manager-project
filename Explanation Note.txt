@@ -1,6 +1,4 @@
-Here’s a **detailed explanation note** for the **Password Manager project** you can include in your documentation or use for reference:
 
----
 
 ## 📓 **Password Manager – Explanation Note**
 
@@ -89,3 +87,4 @@ This project can be expanded with advanced features and serves as a solid founda
 ---
 
 Let me know if you want this explanation note formatted as a PDF, or expanded with diagrams and code snippets!
+
