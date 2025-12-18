@@ -3,8 +3,6 @@
 
 A secure application built in **Python** that allows users to safely store, retrieve, and manage their passwords for different services. The application uses encryption techniques to protect sensitive information and requires a master password for access.
 
----
-
 ## Table of Contents
 
 1. [Features](#features)  
@@ -18,7 +16,6 @@ A secure application built in **Python** that allows users to safely store, retr
 9. [License](#license)  
 10. [Credits](#credits)
 
----
 
 ## Features
 
@@ -28,11 +25,9 @@ A secure application built in **Python** that allows users to safely store, retr
 - Add / retrieve / delete saved entries  
 - Easy-to-use command-line interface  
 
----
 
 ## Project Structure
 
-```
 
 Password-Manager-project/
 │
@@ -44,11 +39,8 @@ Password-Manager-project/
 ├── Password\_Manager\_Explanation.pdf  # Detailed explanation / design (PDF)
 └── README.md                # (You are here)
 
-````
 
 **Note:** The files `key.key` and `passwords.db` should **not** be shared publicly. You may want to add them to `.gitignore`.
-
----
 
 ## Installation
 
@@ -84,7 +76,6 @@ Password-Manager-project/
 
    This will create a file `key.key` containing the encryption key.
 
----
 
 ## Usage
 
@@ -105,8 +96,6 @@ Password-Manager-project/
 
 4. The stored credentials are saved (encrypted) in the `passwords.db` file.
 
----
-
 ## How It Works
 
 * The `generate_key.py` script generates a random symmetric key and saves it to `key.key`.
@@ -115,7 +104,6 @@ Password-Manager-project/
 * When the user wants to retrieve a credential, the application decrypts the relevant entry.
 * Sensitive files like `key.key` and the encrypted DB should be kept secure (never commit them to public repos).
 
----
 
 ## Security Considerations & Best Practices
 
@@ -125,7 +113,6 @@ Password-Manager-project/
 * For improved security, consider using OS-level secure storage or hardware modules (e.g. TPM) instead of file-based key storage.
 * Keep your dependencies and Python version up-to-date to avoid vulnerabilities.
 
----
 
 ## Dependencies
 
@@ -134,7 +121,6 @@ Password-Manager-project/
 * sqlite3 (if using SQLite)
 * Any other libraries used (list them, e.g., `tabulate`, `getpass`, etc.)
 
----
 
 ## Contributing
 
@@ -147,20 +133,6 @@ Contributions, issues, and feature requests are welcome!
 5. Open a Pull Request
 
 Please make sure your code follows consistent style and includes tests (if applicable).
-
----
-
-## License
-
-Specify your license here, e.g.:
-
-```
-MIT License
-```
-
-Or whichever license you prefer.
-
----
 
 ## Credits
 
